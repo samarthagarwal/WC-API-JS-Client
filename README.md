@@ -7,7 +7,8 @@ Add a reference to your index.html file
 
 Inject the `WP` service in your controllers.
 
-```javascriptapp.controller('myCtrl', function($scope, WP){
+```javascript
+app.controller('myCtrl', function($scope, WP){
   var Woocommerce = WP.WP();
   
   Woocommerce.get('products/categories', function(err, data, res){
@@ -15,10 +16,11 @@ Inject the `WP` service in your controllers.
       console.log(err);
     console.log(JSON.parse(res));
   })
-});```
+});
+```
 
-## You may need to change the Module Name accordingly in the services.js file.
+**You may need to change the Module Name accordingly in the services.js file.**
   
-## Works like a Charm in Ionic and AngularJS apps. 
-### For more endpoints check the documentation at https://github.com/woothemes/wc-api-node
+*Works like a Charm in Ionic and AngularJS apps.*
+_For more endpoints check the documentation at [https://github.com/woothemes/wc-api-node](https://github.com/woothemes/wc-api-node "WC NODE API")_
 
