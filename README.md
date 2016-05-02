@@ -3,7 +3,10 @@
 Add a reference to your index.html file
 
 `<script src="wcapi.js"></script>`
+
 `<script src="services.js"></script>`
+
+##### Do not forget to add your `store URL`, `consumer key` and `consumer secret` to the _services.js_ file. 
 
 Inject the `WP` service in your controllers.
 
