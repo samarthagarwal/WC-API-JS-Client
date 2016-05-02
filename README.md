@@ -18,5 +18,6 @@ var Woocommerce = new WooCommerceAPI.WooCommerceAPI({
     console.log(JSON.parse(res));
   })```
   
-  Works like a Charm in Ionic and AngularJS apps.
+##Works like a Charm in Ionic and AngularJS apps. 
+For more endpoints check the documentation at https://github.com/woothemes/wc-api-node
 
