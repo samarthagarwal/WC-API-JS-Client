@@ -8,11 +8,11 @@ Add a reference to your index.html file
 
 ##### Do not forget to add your `store URL`, `consumer key` and `consumer secret` to the _services.js_ file. 
 
-Inject the `WP` service in your controllers.
+Inject the `WC` service in your controllers.
 
 ```javascript
-app.controller('myCtrl', function($scope, WP){
-  var Woocommerce = WP.WP();
+app.controller('myCtrl', function($scope, WC){
+  var Woocommerce = WC.WC();
   
   Woocommerce.get('products/categories', function(err, data, res){
     if(err)
