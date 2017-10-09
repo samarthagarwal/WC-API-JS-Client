@@ -24,6 +24,7 @@ app.controller('myCtrl', function($scope, WC){
 
 **You may need to change the Module Name accordingly in the services.js file.**
   
-*Works like a Charm in Ionic and AngularJS apps.*
+*Works like a Charm in Ionic and AngularJS apps (Keys are mentioned in the client apps which can be exploited, so use at your own risk).*
 _For more endpoints check the documentation at [https://github.com/woothemes/wc-api-node](https://github.com/woothemes/wc-api-node "WC NODE API")_
+
 
